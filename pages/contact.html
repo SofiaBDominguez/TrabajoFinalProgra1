@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/styles/contactStyle.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="icon-container">
+            <a href="/index.html">
+                <img src="/images/Logo2.png" alt="Logo Super Kira" width="70px" height="70px">
+            </a>
+            <h1>Super Kira</h1>
+        </div>
+
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/pages/products.html">Productos</a>
+            <a href="/pages/contact.html">Contacto</a>
+        </nav>
+    </header>
+    <section class="form-container">
+        <h1>Contacto</h1>
+        <form>
+            <label for="name" class="firstLabel">Nombre</label>
+            <input type="text" name="name" id="name">
+            <label for="lastName">Apellido</label>
+            <input type="text" name="lastName" id="lastName">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="phoneNumber">Telefono</label>
+            <input type="number" name="phoneNumber" id="phoneNumber">
+            <label for="queryUser">Consulta</label>
+            <textarea name="queryUser" id="queryUser"></textarea >
+
+            <button type="submit" id="btnSubmit">Enviar</button>
+
+        </form>
+    </section>
+    <footer>
+        <div class="info-container">
+            <img src="/images/Logo2.png" alt="Logo Super Kira" width="70px" height="70px">
+            <p>2284 598715</p>
+        </div>
+        
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/pages/products.html">Productos</a>
+            <a href="/pages/contact.html">Contacto</a>
+        </nav>
+        
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="/js/contact.js"></script>
+</body>
+</html>

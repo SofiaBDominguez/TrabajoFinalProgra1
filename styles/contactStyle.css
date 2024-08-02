@@ -1,0 +1,44 @@
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 40%;
+}
+h1{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+form input, textarea{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 30px;
+}
+
+form label{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.firstLabel{
+    margin-top: 0;
+}
+
+button{
+    margin-top: 20px;
+    width: 15%;
+    padding: 3px 0;
+    
+}

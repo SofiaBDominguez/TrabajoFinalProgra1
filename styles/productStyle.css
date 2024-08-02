@@ -1,0 +1,56 @@
+.products-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+}
+
+.products-container article{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.input-container {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    justify-content: center;
+}
+
+article input{
+    width: 40px;
+}
+
+article h1{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+article h2{
+    text-align: end;
+}
+
+article span{
+    color: rgb(18, 184, 18);
+    padding-right: 20px;
+}
+
+article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alert{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.alert p {
+    margin: 0px auto;
+}
