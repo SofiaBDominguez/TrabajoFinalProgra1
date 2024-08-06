@@ -54,3 +54,7 @@ article p {
 .alert p {
     margin: 0px auto;
 }
+
+#total{
+    text-align: center;
+}

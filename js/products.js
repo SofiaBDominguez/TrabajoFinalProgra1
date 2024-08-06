@@ -2,6 +2,8 @@
 
 console.log("Prducts JS");
 
+let total = 0;
+
 let products = [
     {
         name: "Fanta Zero 500ml",
@@ -114,8 +116,18 @@ function buyProduct(index){
 
     //Obtenemos el producto segun el parametro de entrada
     let element = products[index];
+    
     //Restamos la cantidad comprada del stock
     element.stock = element.stock - quantity;
+
+    //obtenemos y mostramos el total de cada producto
+    document.getElementById(`alert${index}`).innerHTML = `<p> Total: $${quantity*element.price}</p>`;
+
+    //sumamos el total de cada compra
+    total += quantity*element.price;
+
+    //pisamos el total de html para mostrar la sumatoria 
+    document.getElementById("total").innerHTML = "Total: $"+total 
 
     //Modificamos el stock del producto en cuestion
     let stock = document.getElementById("stock"+index);
